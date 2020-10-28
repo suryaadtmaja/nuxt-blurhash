@@ -1,6 +1,6 @@
 {
   "name": "@filsuck/nuxt-blurhash",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "[![npm version][npm-version-src]][npm-version-href] [![npm downloads][npm-downloads-src]][npm-downloads-href] [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href] [![Codecov][codecov-src]][codecov-href] [![License][license-src]][license-href]",
   "repository": {
     "type": "git",
