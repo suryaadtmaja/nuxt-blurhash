@@ -1,24 +1,18 @@
 <template>
   <div>
-    <!-- <nuxt-blurhash
-      :hash="'LdHfL}oJR$WBKnfi%3ofT0kCM{ay'"
-      :width="'340'"
-      :height="'320'"
-      :punch="punch"
-    /> -->
     <nuxt-blur-image
       width="400"
       height="300"
-      hash="LdHfL}oJR$WBKnfi%3ofT0kCM{ay"
-      src="https://images.unsplash.com/photo-1545910684-8e7c081be9b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80"
-      alt="green lawn grass during daytime"
+      src="https://images.unsplash.com/photo-1417325384643-aac51acc9e5d?q=75&fm=jpg&w=1080&fit=max"
+      hash="LFC$yHwc8^$yIAS$%M%00KxukYIp"
+      alt="Just a picture"
     />
   </div>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       punch: 1
     }
