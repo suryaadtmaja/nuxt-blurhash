@@ -56,15 +56,18 @@ yarn add nuxt-blurhash # or npm install nuxt-blurhash
     :punch="punch"
   />
 </template>
-``` ## Props | Name | Type | Default | Description |
+```
+
+## Props
+
+| Name                  | Type              | Default                          | Description                                           |
 |-----------------------|-------------------|---------------------------------|--------------------------------------------------------|
-| `height` | [Number, String] | 128 | Height of image | | `width` | [Number,
-String] | 128 | Width of image | | `punch` | [Number, String] | 1 | This value
-adjusts the contrast on the decoded image | | `src` | String | null | Image
-source url | | `transitionDuration` | Number | 500 | Fade animation - Transition
-time (in ms) | ## Development 1. Clone this repository 2. Install dependencies
-using `yarn install` or `npm install` 3. Start development server using `npm run
-dev`
+| `height`              | [Number, String]  | 128                             | Height of image                                        |
+| `width`               | [Number, String]  | 128                             | Width of image                                         |
+| `punch`               | [Number, String]  | 1                               | This value adjusts the contrast on the decoded image   |
+| `src`                 | String            | null                            | Image source url                                       |
+| `transitionDuration`  | Number            | 500                             | Fade animation - Transition time (in ms)               |
+
 
 <!-- Badges -->
 
@@ -78,4 +81,3 @@ https://img.shields.io/codecov/c/github/.svg [codecov-href]:
 https://codecov.io/gh/ [license-src]:
 https://img.shields.io/npm/l/nuxt-blurhash.svg [license-href]:
 https://npmjs.com/package/nuxt-blurhash
-````
