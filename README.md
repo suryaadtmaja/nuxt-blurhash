@@ -47,7 +47,7 @@ yarn add nuxt-blurhash # or npm install nuxt-blurhash
 
 ## Use Canvas only
 
-````vue
+```vue
 <template>
   <nuxt-blurhash
     :hash="'LdHfL}oJR$WBKnfi%3ofT0kCM{ay'"
