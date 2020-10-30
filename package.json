@@ -1,7 +1,7 @@
 {
   "name": "nuxt-blurhash",
   "version": "0.0.4",
-  "description": "[![npm version][npm-version-src]][npm-version-href] [![npm downloads][npm-downloads-src]][npm-downloads-href] [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href] [![Codecov][codecov-src]][codecov-href] [![License][license-src]][license-href]",
+  "description": "Nuxt Blurhash components",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/filsuck/nuxt-blurhash.git"
