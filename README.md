@@ -1,12 +1,9 @@
-# nuxt-blurhash
+## Nuxt Blurhash
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
-[![Codecov][codecov-src]][codecov-href]
-[![License][license-src]][license-href]
 
->
+[Demo](https://example-nuxt-blurhash.vercel.app/)
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
@@ -33,6 +30,10 @@ yarn add nuxt-blurhash # or npm install nuxt-blurhash
 
 ## Simple usage
 
+<p align="center">
+  <img src="./Screenshot_2020-10-29%20test-blur(1).png">
+</p>
+
 ```vue
 <template>
   <nuxt-blur-image
@@ -47,6 +48,9 @@ yarn add nuxt-blurhash # or npm install nuxt-blurhash
 
 ## Use Canvas only
 
+<p align="center">
+  <img src="./Screenshot_2020-10-29 test-blur.png">
+</p>
 ```vue
 <template>
   <nuxt-blurhash
@@ -58,17 +62,12 @@ yarn add nuxt-blurhash # or npm install nuxt-blurhash
 </template>
 ```
 
+## Props
 
-<!-- Badges -->
-
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-blurhash/latest.svg
-[npm-version-href]: https://npmjs.com/package/nuxt-blurhash [npm-downloads-src]:
-https://img.shields.io/npm/dt/nuxt-blurhash.svg [npm-downloads-href]:
-https://npmjs.com/package/nuxt-blurhash [github-actions-ci-src]:
-https://github.com//workflows/ci/badge.svg [github-actions-ci-href]:
-https://github.com//actions?query=workflow%3Aci [codecov-src]:
-https://img.shields.io/codecov/c/github/.svg [codecov-href]:
-https://codecov.io/gh/ [license-src]:
-https://img.shields.io/npm/l/nuxt-blurhash.svg [license-href]:
-https://npmjs.com/package/nuxt-blurhash
-
+| Name                 | Type             | Default | Description                                          |
+| -------------------- | ---------------- | ------- | ---------------------------------------------------- |
+| `height`             | [Number, String] | 128     | Height of image                                      |
+| `width`              | [Number, String] | 128     | Width of image                                       |
+| `punch`              | [Number, String] | 1       | This value adjusts the contrast on the decoded image |
+| `src`                | String           | null    | Image source url                                     |
+| `transitionDuration` | Number           | 500     | Fade animation - Transition time (in ms)             |
